@@ -1,0 +1,8 @@
+import com.lagradost.cloudstream3.*
+
+class ContohProvider : MainAPI() {
+    override var name = "Contoh Provider"
+    override var mainUrl = "https://example.com"
+    override var lang = "id"
+    override val supportedTypes = setOf(TvType.Movie)
+}
